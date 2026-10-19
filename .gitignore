@@ -1,0 +1,14 @@
+# Local VS Code workspace
+*.code-workspace
+
+.vscode/
+
+# Compiled binary
+*.o
+*.out
+program.bin
+
+# tmp files
+*~
+*.swp
+
