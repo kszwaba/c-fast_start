@@ -64,5 +64,32 @@ void clear_input (char input_buffer[], char trash_buffer[]){
 
 }
 
+/*
+console output:
+$ gcc -o ../program.bin functions-clear_input.c && ../program.bin
+Enter any text.
+abcd
+input_buffer[0] = a
+input_buffer[1] = b
+input_buffer[2] = c
+input_buffer[3] = d
+input_buffer[4] = 
+input_buffer[5] = 
+input_buffer[6] = 
+input_buffer[7] = 
+input_buffer[8] = 
+input_buffer[9] = 
+
+trash_buffer[0] = b
+trash_buffer[1] = c
+trash_buffer[2] = d
+trash_buffer[3] = 
+trash_buffer[4] = 
+trash_buffer[5] = 
+trash_buffer[6] = 
+trash_buffer[7] = 
+trash_buffer[8] = 
+trash_buffer[9] = 
+*/
 
 
